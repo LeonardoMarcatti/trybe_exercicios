@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav{
+            background-color: rgb(60, 60, 236);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav > a{
+            color: white;
+            margin: 20px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            transition: all .20s;
+            color: gray;
+        }
+
+        img{
+            width: 200px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 10px 0px 15px gray;
+            border: 3px solid rgb(0, 0, 119);
+        }
+
+        figure{
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        a{
+            color: red;
+        }
+
+        li{
+            list-style-type: square;
+        }
+
+        #mini_bar{
+            background-color: rgb(148, 148, 180);
+            height: 15px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu Portifólio</h1>
+    <nav>
+        <a href="#1">Quem sou eu</a>
+        <a href="#2">Minhas habilidades</a>
+        <a href="#3">Links</a>
+    </nav>
+    <div id="mini_bar"></div>
+    <section id="1">
+        <figure>
+            <img src="images/leo.jpg" alt="Foto do Leo">    
+            <figcaption>
+                <q>Adoro escrever códigos em PHP e JS</q>
+            </figcaption>
+        </figure>
+        <p>Olá mundo! Meu nome é Leonardo Marcatti e sou natural de Belo Horizonte - MG porém, hoje moro no interior do Paraná e gosto muito daqui.</p>
+    </section>
+    <section id="2">
+        <h2>Minha habilidades</h2>
+        <ul>
+            <li><b>Resolver problemas</b></li>
+            <li>Me comunicar</li>
+            <li>Empatia</li>
+            <li>Criatividade</li>
+            <li>Descobrir coisas novas</li>
+        </ul>
+        <p>De todas essas habilidades a que mais me orgulho é a de resolver problemas. E eu uso código para resolver problemas do dia a dia</p>
+    </section>
+    <section id="3">
+        <p>Clicando <a href="images/leo.jpg">aqui</a> você pode me ver mais de perto!</p>
+        <p>E se você clicar <a href="https://www.car.blog.br/" target="_blank">aqui</a> você será transferido para um blog de carros que eu adoro!</p>
+    </section>
+</body>
+</html>
