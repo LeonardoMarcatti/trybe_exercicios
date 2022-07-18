@@ -1,0 +1,29 @@
+body{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+}
+
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+ul{
+    background-color: silver;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: overline
+}
+
+.fundo{
+    background-color: silver;
+}
