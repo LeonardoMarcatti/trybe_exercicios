@@ -1,0 +1,48 @@
+div:hover{
+    border: 5px solid black;
+    transition: all .25s;
+    margin: 8px;
+    padding: 5px;
+}
+
+div{
+    padding: 10px;
+    margin: 10px;
+}
+
+div:nth-of-type(2n+1) {
+    font-style: italic;
+}
+
+#d1{
+    background-color:blueviolet;
+}
+#d2{
+    background-color: tomato
+}
+#d3{
+    background-color: aqua;
+}
+#d4{
+    background-color: brown;
+}
+#d5{
+    background-color: gold;
+}
+
+#d1 > h3{
+    text-align: end;
+}
+#d2 > h3{
+    font-size: 15px;
+}
+#d3 > h3{
+   text-decoration: underline; 
+   padding: 20px;
+}
+#d4 > h3{
+    font-weight: bold;
+}
+#d5 > h3{
+   text-indent: 5%;
+}

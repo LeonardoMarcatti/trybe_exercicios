@@ -1,0 +1,13 @@
+h1,p{
+    text-align: center;
+}
+
+ul > li:hover{
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .25s;
+}
+
+ol, ul{
+    list-style: none;
+}
