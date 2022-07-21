@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(62, 82, 57);
+    color: silver;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: url('http://4.bp.blogspot.com/-nCRuuIIK7Bk/VVUbUSNT16I/AAAAAAAAA8M/CP3mDt2s6Gk/s1600/uw-2010-06-11.jpg');
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: center;
+    border-bottom: 2px solid tomato;
+}
+
+header > h1{
+   margin: 5px 10px;
+   font-size: 25px;
+   color: black;
+   text-shadow: 0px 0px 5px  white;
+}
+
+header > h1:nth-child(2){
+    text-indent: 1rem;
+}
+
+header > nav > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+figure, table{
+    margin-left: 10px;
+    float: left;
+}
+
+figure > img{
+    width: 350px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+}
+
+table{
+    display: inline-block;
+    width: 350px;
+    clear: left;
+    border: 2px solid gray;
+    margin-right: 40px;
+}
+
+table > thead{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tr{
+    text-align: center;
+    width: 150%;
+}
+
+tbody >tr:nth-child(odd){
+    background-color: rgb(85, 84, 84);
+}
+
+p{
+    text-indent: 2rem;
+    text-align: justify;
+    margin: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+#img_visao{
+    width: 250px;
+    position: relative;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+#sec_visao > div, #sec_atack > div{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#sec_visao p{
+    width: 950px;
+}
+
+#bibliografia{
+    display: block;
+}
+
+#bibliografia li{
+    padding: 0px;
+    margin: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer > small {
+    text-align: justify;
+}
+
+footer a:visited{
+    color: white
+}
