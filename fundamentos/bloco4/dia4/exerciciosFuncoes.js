@@ -92,7 +92,7 @@ console.log('A palavra ' + palavra + ' termina em ' + fim + '?', checkFinal(pala
 
 let table = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1};
 
-const romanNumber = "MCMLXXXIX";
+const romanNumber = "MCMLXXVIII";
 
 
 function romanToInt(val) {
@@ -104,16 +104,13 @@ function romanToInt(val) {
       if (table[chave] > 0) {
         acc += table[chave];
         index++;
-        console.log('Dupla:', chave, table[chave]);
       } else {
         chave = chave.slice(0, -1);
         acc += table[chave];
-        console.log('Única:', chave, table[chave]);
       };
     } else {
       chave = val[index];
       acc += table[chave];
-      console.log('Única:', chave, table[chave]);
     };
   }
   return acc;
