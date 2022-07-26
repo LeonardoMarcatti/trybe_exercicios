@@ -2,11 +2,31 @@ let a = 15;
 let b = 10;
 let c = 12;
 
-console.log('Soma: ' + a+b);
-console.log('Subtração: ' + (a - b));
-console.log('Multiplicação: ' + a*b);
-console.log('Divisão: ' + a/b);
-console.log('Resto: ' + a%b);
+function calcular(num1, num2, operacao) {
+	switch (operacao) {
+		case '+':
+			return a+b;
+			break;
+		case '-':
+			return a-b;
+			break;
+		case '*':
+			return a*b;
+			break;
+		case '/':
+			return a/b;
+			break;
+		default:
+			return a%b;
+			break;
+	}
+};
+
+console.log('Soma: ' + calcular(a,b, '+'));
+console.log('Subtração: ' + calcular(a,b, '-'));
+console.log('Multiplicação: ' + calcular(a,b, '*'));
+console.log('Divisão: ' + calcular(a,b, '/'));
+console.log('Resto: ' + calcular(a,b, '%'));
 
 if (a > b) {
     console.log('O maior número é: ' + a);
